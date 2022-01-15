@@ -1,18 +1,31 @@
-this is basically copied from stroobants-dev/ublock-origin-shitty-copies-filter!
-need to confirm how licensing works, but i think i'll just keep the same license
-for now and cross my fingers and get to this tomorrow.
+# ublock-origin-search-annoyance-list
 
-changes:
-- blocks search results only, not the sites themselves
-- some custom additions
-- easier to edit (source files and all that)
+[uBlock Origin] list to block search results that I think are annoying. Forked
+from [stroobants-dev/ublock-origin-shitty-copies-filter]. The quick version:
 
-TODO:
-- host at natan.la (to be github agnostic)
-- potential tests
-  * duplicate lines
-  * ublock origin syntax check
-  * special characters in filters
-  * filters with subdomains
-- actually write a readme
+* See [lists/] for categories of sites that are being blocked.
+
+* This list only blocks search results for the targeted sites -- not the sites
+  themselves.
+
+* The filter list lives at https://adlists.natan.la/annoyances.txt. This combined
+  list is built using GitHub Actions from each composite list in [lists/].
+
+  [lists/]: lists/
+  [stroobants-dev/ublock-origin-shitty-copies-filter]: https://github.com/stroobants-dev/ublock-origin-shitty-copies-filter
+  [uBlock Origin]: https://ublockorigin.com/
+
+
+## TODO
+
+- Add some tests / linting
+  * detect duplicate lines
+  * check ublock origin syntax?
+  * check for special characters in filters
+  * check for filters with subdomains
+- Am I using uBlock Origin vocabulary correctly?
+- Actually write a README
 - should lists be sorted? or let them be unsorted so i can add comments?
+- read the ublock origin documentation to make sure i'm doing this right lol
+- make sure i'm not breaking the law with licensing
+
