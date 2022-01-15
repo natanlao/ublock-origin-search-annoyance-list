@@ -28,4 +28,5 @@ from [stroobants-dev/ublock-origin-shitty-copies-filter]. The quick version:
 - should lists be sorted? or let them be unsorted so i can add comments?
 - read the ublock origin documentation to make sure i'm doing this right lol
 - make sure i'm not breaking the law with licensing
+- add landing page for https://adlists.natan.la/
 
