@@ -1,0 +1,26 @@
+name: Publish list to GitHub Pages
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Generate list
+        run: |
+          mkdir publish/
+          ./generate-list.sh > publish/annoyances.txt
+
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3.7.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./publish
+          publish_branch: gh-pages
+          cname: adlists.natan.la
+
