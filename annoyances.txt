@@ -1,6 +1,6 @@
 ! Title: Annoying search results
-! Version: 202210150810
-! Last modified: Sat Jan 15 08:10:53 UTC 2022
+! Version: 202215160615
+! Last modified: Sun Jan 16 06:15:38 UTC 2022
 ! Homepage: https://github.com/natanlao/ublock-origin-search-annoyance-list
 ! License: https://github.com/natanlao/ublock-origin-search-annoyance-list/blob/develop/LICENSE
 duckduckgo.*##.results > div:has(a[href*="gitmemory.cn"])
