@@ -1,6 +1,6 @@
 ! Title: Annoying search results
-! Version: 202239160639
-! Last modified: Sun Jan 16 06:39:13 UTC 2022
+! Version: 202238230038
+! Last modified: Wed Feb 23 00:38:04 UTC 2022
 ! Homepage: https://github.com/natanlao/ublock-origin-search-annoyance-list
 ! License: https://github.com/natanlao/ublock-origin-search-annoyance-list/blob/develop/LICENSE
 duckduckgo.*##.results > div:has(a[href*="gitmemory.cn"])
@@ -125,6 +125,14 @@ duckduckgo.*##.results > div:has(a[href*="pinterest.ph"])
 google.*##.g:has(a[href*="pinterest.ph"])
 duckduckgo.*##.results > div:has(a[href*="*.pinterest.ph"])
 google.*##.g:has(a[href*="*.pinterest.ph"])
+duckduckgo.*##.results > div:has(a[href*="lzomedia.com"])
+google.*##.g:has(a[href*="lzomedia.com"])
+duckduckgo.*##.results > div:has(a[href*="*.lzomedia.com"])
+google.*##.g:has(a[href*="*.lzomedia.com"])
+duckduckgo.*##.results > div:has(a[href*="softbranchdevelopers.com"])
+google.*##.g:has(a[href*="softbranchdevelopers.com"])
+duckduckgo.*##.results > div:has(a[href*="*.softbranchdevelopers.com"])
+google.*##.g:has(a[href*="*.softbranchdevelopers.com"])
 duckduckgo.*##.results > div:has(a[href*="amuddycup.com"])
 google.*##.g:has(a[href*="amuddycup.com"])
 duckduckgo.*##.results > div:has(a[href*="*.amuddycup.com"])
