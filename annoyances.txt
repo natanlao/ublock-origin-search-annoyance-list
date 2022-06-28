@@ -1,6 +1,6 @@
 ! Title: Annoying search results
-! Version: 202202172302
-! Last modified: Tue May 17 23:02:37 UTC 2022
+! Version: 202221281821
+! Last modified: Tue Jun 28 18:21:38 UTC 2022
 ! Homepage: https://github.com/natanlao/ublock-origin-search-annoyance-list
 ! License: https://github.com/natanlao/ublock-origin-search-annoyance-list/blob/develop/LICENSE
 duckduckgo.*##.results > div:has(a[href*="gitmemory.cn"])
@@ -149,6 +149,10 @@ duckduckgo.*##.results > div:has(a[href*="codeflow.site"])
 google.*##.g:has(a[href*="codeflow.site"])
 duckduckgo.*##.results > div:has(a[href*="*.codeflow.site"])
 google.*##.g:has(a[href*="*.codeflow.site"])
+duckduckgo.*##.results > div:has(a[href*="codehunter.cc"])
+google.*##.g:has(a[href*="codehunter.cc"])
+duckduckgo.*##.results > div:has(a[href*="*.codehunter.cc"])
+google.*##.g:has(a[href*="*.codehunter.cc"])
 duckduckgo.*##.results > div:has(a[href*="culinarydegree.info"])
 google.*##.g:has(a[href*="culinarydegree.info"])
 duckduckgo.*##.results > div:has(a[href*="*.culinarydegree.info"])
